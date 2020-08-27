@@ -1,0 +1,69 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.wraper{
+    height: 100vh;
+    background: #f3f3f3;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card{
+    height: 400px;
+    width: 300px;
+    background: #fff;
+    border-radius: 5px;
+    box-shadow: 0px 0px 20px 10px rgba(0,0,0,0.22);
+}
+.image{
+    height: 230px;
+    width: 100%;
+    background-image: linear-gradient(180deg,rgba(0,0,0,0.2),rgba(0,0,0,0.4)),url(https://images.pexels.com/photos/417074/pexels-photo-417074.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+.thumb{
+    height: 60px;
+    width: 60px;
+    background: #43a8ec;
+    border-radius: 40px;
+    position: relative;
+    margin-top: -30px;
+    margin-left: 220px;
+    cursor: pointer;
+    transition: .2s ease-in-out;
+}
+.fa-thumbs-up{
+    color:#fff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.thumb:hover {
+    box-shadow: 0px 0px 10px 5px rgba(0,0,0,0.2);
+}
+.date{
+    font-size: .80rem;
+    padding-left: 10px;
+    margin-top: -20px;
+}
+.card-body{
+    margin-top: 30px;
+    padding-left: 10px;
+}
+.fa-star{
+    color: gold;
+    margin-top: 10px;
+}
+#address{
+    font-size: .78rem;
+    margin-top: 10px;
+}
+.
